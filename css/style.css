@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;  
     background: #000;
     color: #999;
@@ -90,19 +90,20 @@ img {
 
 .showcase-content h1 {
     font-weight: bold;
-    font-size: 5.2rem;
-    line-height: 1.1rem;
-    margin: 0 0 2rem;
+    max-width: 940px;
+    font-size: 3.9rem;
+    line-height: 70px;
+    margin: 0 112px;
 
 }
 
 .showcase-content p {
-    text-transform: uppercase;
     color: white;
     font-weight: 400;
-    font-size: 1.9rem;
-    line-height: 1.25;
-    margin: 0 0 2rem;
+    font-size: 1.72rem;
+    line-height: 1.60;
+    max-width: 840px;
+    margin: 16px 112px;
 
 }
 
