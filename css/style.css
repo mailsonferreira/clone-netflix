@@ -137,6 +137,48 @@ img {
 
 }
 
+.tabs .container > div:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.tab-border {
+    border-bottom: var(--prymary-color) 4px solid;
+}
+
+/*TAB Content*/
+
+.tab-content {
+    padding-top: 3rem 0;
+    background: black;
+    color: white;
+}
+
+#tab-1-content .tab-1-content-inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#tab-2-content .tab-2-content-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#tab-2-content  .tab-2-content-bottom{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 /*Container*/
 
@@ -145,6 +187,28 @@ img {
     margin: auto;
     overflow: hidden;
     padding-top: 0 2rem;
+}
+
+
+/* TEXTOS*/
+
+.text-xl {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text-lg {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-dark {
+    color: #999;
 }
 
 /*Botoes*/
